@@ -29,7 +29,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 *{
     list-style:none;
     margin:0;
@@ -41,16 +40,11 @@
 }
 .container{
     margin:10px;
-
     width:1300px;
-}
-.container__header-top{
-
 }
 .header-top__top-menu-links{
     height:40px;
     background:#709b1d;
-
 }
 .top-menu-links__link-list{
    margin:0 0 0 180px;
@@ -63,7 +57,6 @@
 }
 .link-list__link-home{
     width:76px;
-
 }
 .link-list__link-account{
     width:110px;
@@ -76,7 +69,6 @@
     float:left;
     text-align:center;
     line-height:35px;
-
 }
 .link-list__link-checkout{
     width:104px;
@@ -101,7 +93,6 @@
 }
 .languages__item{
     float:left;
-    line-height:25px;
     background:#fff;
     color:#709b1d;
     line-height:35px;
@@ -109,7 +100,6 @@
 
 .languages__language{
     margin-right:7px;
-
 }
 .language__img{
     position:relative;
@@ -126,10 +116,6 @@
  }
 .language__icon{
     font-size:12px;
-
-}
-.languages__doller{
-
 }
 .link__sign{
     display:inline-block;
@@ -144,14 +130,6 @@
 .languages__item:hover .link__sign{
     background:#709b1d;
     color:#fff;
-}
-.doller__link{
-
-}
-.link__icon{
-
-
-
 }
 .header-top__logo{
     padding:20px 0;
