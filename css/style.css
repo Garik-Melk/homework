@@ -7,7 +7,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Dosis-Bold';
     src: url('../fonts/Dosis-Bold.eot?#iefix') format('embedded-opentype'),
@@ -18,7 +17,15 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Ubuntu.woff') format('woff'),
+    url('../fonts/Ubuntu.ttf')  format('truetype'),
+    url('../fonts/Ubuntu.svg#Ubuntu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'Dosis-ExtraLight';
     src: url('../fonts/Dosis-ExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -120,8 +127,8 @@
 .link__sign{
     display:inline-block;
     width:12px;
-    height:12px;
-    line-height:11px;
+    height:14px;
+    line-height:13px;
     text-align:center;
     border-radius:3px;
     background:#709b1d;
@@ -137,7 +144,7 @@
 }
 .logo__logo-text{
     font-size:25px;
-    font-family: Dosis-Bold;
+    font-family: "Dosis-Bold",sans-serif;
     margin:0 0 0 180px;
     float:left;
 }
@@ -147,13 +154,13 @@
 .logo-link__green{
     color:#709b1d;
     font-weight:bold;
-    font-family: 'Dosis-Bold';
+    font-family: 'Dosis-Bold',sans-serif;
     display:inline-block;
     font-size:40px;
 }
 .logo-link__black{
     color:#000;
-    font-family: 'Dosis-ExtraLight';
+    font-family: 'Dosis-ExtraLight',sans-serif;
     font-size:40px;
     position:relative;
     left:-5px;
@@ -204,4 +211,162 @@
     box-shadow:0 0 1px 1px #e2e2e2;
     background:#709b1d;
     color:#fff;
+}
+.log-in__drop-down{
+    width:290px;
+    font-family: 'Ubuntu',sans-serif;
+    border-top:5px solid #709b1d;
+    position:relative;
+    right:240px;
+    top:-15px;
+    display:none;
+}
+.log-in__commercial-arrow{
+    display:block;
+    border:7px solid transparent;
+    border-bottom:7px solid #709b1d;
+    height:0;
+    width:0;
+    position:relative;
+    top:-15px;
+    display:none;
+}
+.log-in__pencil:hover .log-in__commercial-arrow{
+    display:block;
+}
+.log-in__pencil:hover .log-in__drop-down{
+    display:block;
+}
+.drop-down__commercial1{
+    border-bottom:3px dotted #ebebeb;
+}
+.drop-down__commercial-item{
+    width:258px;
+    margin-left:15px;
+}
+.commercial__img{
+    float:left;
+    margin:15px 15px 12px 0;
+}
+.commercial__img-down{
+    margin:11px 15px 10px 0;
+}
+.commercial1__commercial1-text-box{
+    margin:30px 0 0 0;
+}
+.commercial-text-box__text-left{
+    margin:30px 0 0 0;
+}
+.commercial__commercial-text-box{
+    float:left;
+}
+.commercial2__commercial2-text-box{
+    margin:27px 0 0 0;
+}
+.commercial-text-box__product-price-2{
+    margin-left:4px;
+}
+.commercial-text-box__text-left{
+    float:left;
+    margin:0 35px 0 0;
+}
+.fa-times-circle{
+    position:relative;
+    right:-10px;
+}
+.text-left__text-title{
+    font-size:13px;
+    color:#666666;
+    margin:0 0 5px 0;
+}
+.text-left__size-quantity{
+    color:#898989;
+    font-size:12px;
+}
+.size__one-size{
+    color:#709b1d;
+}
+.quantity__number{
+    color:#709b1d;
+}
+.commercial-text-box__product-price{
+    float:right;
+}
+.commercial-text-box__product-price{
+    font-size:16px;
+    color:#709b1d;
+}
+.drop-down__commercial-top-text{
+    border-bottom:2px solid #e7e7e7;
+    width:258px;
+    height:25px;
+    margin:0 auto;
+    text-align:center;
+    color:#a8a8a8;
+    line-height:25px;
+    font-size:12px;
+}
+.drop-down__delivry{
+    margin:10px 0;
+    height:39px;
+    line-height:39px;
+    font-size:13px;
+    color:#898989;
+    padding: 0 38px 0 18px;
+    background:#f7f7f7;
+}
+.delivry__text{
+    float:left;
+}
+.delivry__price{
+    float:right;
+    font-size:21px;
+    color:#709b1d;
+}
+.delivry__text-green{
+    color:#709b1d;
+    font-size:21px;
+}
+.drop-down__drop-down-footer{
+    height:51px;
+    color:#fff;
+}
+.drop-down-footer__item{
+    display:inline-block;
+    background:#709b1d;
+    height:31px;
+    line-height:31px;
+    margin-top:5px;
+    float:left;
+    border-radius:0 0 3px 3px;
+    font-size:12px;
+    text-align:center;
+}
+.drop-down-footer__view-cart{
+    width:76px;
+    margin:5px 15px;
+}
+.drop-down-footer__view-cart:hover .drop-down-footer__link_view_cart{
+    box-shadow:2px 2px 10px 2px #848581;
+    color:#709b1d;
+    background:#fff;
+}
+.drop-down-footer__checkout:hover .drop-down-footer__link_checkout{
+    box-shadow:2px 2px 10px 2px #848581;
+    color:#8e8e8e;
+    background:#fff;
+}
+.drop-down-footer__checkout{
+    display:inline-block;
+    background:#8e8e8e;
+    height:31px;
+    line-height:31px;
+    width:174px;
+}
+.drop-down-footer__link{
+    color:#fff;
+    display:block;
+}
+.fa-angle-double-right{
+    margin:0 0 0 21px;
 }
