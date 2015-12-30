@@ -461,7 +461,8 @@
 .section-main__container-section-main{
     background-image:url(../img/backgr.png);
     background-repeat:no-repeat;
-    background-size:auto;
+    background-size:cover;
+    border-bottom:1px solid #e8e8e8;
 }
 .img-list__img-list-item{
     float:left;
@@ -487,7 +488,7 @@
     word-spacing:10px;
     letter-spacing:2px;
     text-align:center;
-    background:rgba(129,180,91, 0.4);
+   background:rgba(129,180,91, 0.7);
 }
 .img-list__third-list-item{
     margin:174px 0 0 0;
@@ -505,4 +506,98 @@
     float:right;
     top:206px;
     right:7px;
+}
+
+.container-section-main__squares{
+    width:85px;
+    margin:0 auto 0;
+    position:relative:
+}
+.squares_squares-item{
+    width:21px;
+    height:17px;
+    border-radius:5px 5px 0 0;
+    float:left;
+    margin-right:6px;
+    background:#709b1d;
+}
+
+.container-section-main__adventages{
+    height:95px;
+    background:#709b1d;
+}
+.section-main__adventages-list{
+     height:95px;
+    width:970px;
+    margin:0 auto;
+ }
+.adventages-list__adventages-item{
+    height:72px;
+    background:#83b228;
+    border-radius:10px;
+    float:left;
+    margin-right:22px;
+    width:220px;
+    margin-top:12px;
+}
+.adventages-list__adventages-item:hover{
+    box-shadow:0 3px 0 #658c19;
+}
+.adventages-list__adventages-item_cart{
+    margin-right:0;
+}
+.adventages-list__adventages-item_img{
+
+}
+.adventage-icon{
+    font-size:40px;
+    color:#fff;
+}
+.fa-lock{
+    font-size:45px;
+    display:inline-block;
+}
+.adventages-item__element{
+    float:left;
+    font-size:12px;
+    display:block;
+}
+.adventages-text__top{
+    display:block;
+    font-size:18px;
+    margin-top:10px;
+}
+.adventages-text__down{
+    display:block;
+    font-size:12px;
+}
+.adventages-item__img{
+    margin:13px 15px 0 18px;
+}
+.adventage-icon{
+    font-size:37px;
+    color:#fff;
+    margin:15px 15px 0 18px;
+}
+.fa-lock{
+    font-size:45px;
+    display:inline-block;
+    margin:8px 15px 0 18px;
+}
+.adventages-item__adventages-text{
+    margin-top:0;
+    color:#fff;
+    height:72px;
+    width:147px;
+}
+.adventages-item__link{
+    display:block;
+    color:#fff;
+    height:72px;
+}
+.adventages-item__adventages-text_secure-store{
+    width:154px;
+}
+.icon{
+    height:72px;
 }
