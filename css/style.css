@@ -41,6 +41,7 @@
     margin:0;
     padding:0;
     text-decoration:none;
+    font-family:"Open Sans", sans-serif;
 }
 .clear{
     clear:both;
@@ -58,8 +59,8 @@
     background:#709b1d;
     height:35px;
     float:left;
-    font-size:14px;
-    font-family: 'Open Sans', sans-serif;
+
+
     width:421px;
 }
 .link-list__link-home{
@@ -117,8 +118,6 @@
     color:#709b1d;
     display:block;
     margin:0 4px;
-    font-family: 'Open Sans', sans-serif;
-    font-size:14px;
     height:35px;
  }
 .language__icon{
@@ -170,13 +169,11 @@
     margin:10px 0 0 470px;
 }
 .log-in__log-in-text{
-    font-size:14px;
     color:#709b1d;
     float:left;
     margin:6px 19px 0 0;
 }
 .log-in-text__or{
-    font-size:14px;
     color:#000;
     font-weight:bold;
 }
@@ -184,8 +181,8 @@
     display:block;
 }
 .log-in__item{
-    width:27px;
-    height:27px;
+    width:30px;
+    height:30px;
     background:#709b1d;
     float:left;
     margin:0 10px 0 0;
@@ -194,8 +191,8 @@
 .log-in__icon{
     font-size:20px;
     position:relative;
-    top:-13px;
-    left:3px;
+    top:-19px;
+    left:5px;
     color:#fff;
 }
 
@@ -203,14 +200,18 @@
     border:2px solid #fff;
     border-radius:50%;
     font-size:12px;
-    padding:2px;
+    width:14px;
+    height:14px;
+    padding:3px;
+    line-height:14px;
     font-weight:bold;
     position:relative;
-    left:20px;
-    top:-13px;
+    left:18px;
+    top:-15px;
     box-shadow:0 0 1px 1px #e2e2e2;
     background:#709b1d;
     color:#fff;
+    display:inline-block;
 }
 .log-in__drop-down{
     width:290px;
@@ -220,9 +221,10 @@
     right:240px;
     top:-15px;
     display:none;
+    background:#fff;
+    z-index:1;
 }
 .log-in__commercial-arrow{
-    display:block;
     border:7px solid transparent;
     border-bottom:7px solid #709b1d;
     height:0;
@@ -362,11 +364,145 @@
     height:31px;
     line-height:31px;
     width:174px;
+
 }
 .drop-down-footer__link{
     color:#fff;
     display:block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:12px;
 }
+
 .fa-angle-double-right{
     margin:0 0 0 21px;
+}
+.container-section__main{
+    border:1px solid;
+}
+.section-main__products-menu{
+    height:40px;
+    background:#f3f3f3;
+    line-height:40px;
+}
+.products-menu__products-item{
+    float:left;
+    margin:5px 13px 0 0;
+    line-height:28px;
+    text-align:center;
+}
+.products-item__link{
+    color:#709b1d;
+}
+.products-phone{
+    margin:5px 10px 0 160px;
+    width:120px
+}
+.products-dasktop{
+    width:84px;
+}
+.products-laptop{
+    width:73px;
+}
+.products-accessories{
+    width:110px;
+}
+.products-network{
+    width:113px;
+}
+.products-software{
+    width:94px;
+}
+.products__form-products{
+    padding:0;
+    height:37px;
+    margin-top:0px;
+}
+.fa-search{
+    position:relative;
+    left:-32px;
+    top:-2px;
+    color:#fff;
+    font-size:20px;
+}
+.form-products__submit{
+    width:29px;
+    height:29px;
+    background:#709b1d;
+    color:#fff;
+    position:relative;
+    top:5px;
+    left:-4px;
+    border:0;
+    border-radius:0 3px 3px 0;
+    padding:0;
+}
+.form-products__searchbox{
+    height:29px;
+    border:3px;
+    position:relative;
+    top:-5px;
+    padding-left:12px;
+    width:150px;
+}
+.products-form{
+    z-index:0;
+}
+.products-item__link{
+    display:block;
+    height:28px;
+    background:#fff;
+    border-radius:5px;
+}
+.products-item__link:hover{
+    box-shadow:0 2px 0  #58800b;
+    background:#709b1d;
+    color:#fff;
+}
+.section-main__container-section-main{
+    background-image:url(../img/backgr.png);
+    background-repeat:no-repeat;
+    background-size:auto;
+}
+.img-list__img-list-item{
+    float:left;
+    position:relative;
+}
+.img-list__arrow-left{
+    margin:206px 0 0 7px;
+}
+.img-list__handy{
+    margin: 0 0 0 185px;
+}
+.img-list__born-for{
+    width:397px;
+    left:-145px;
+    top:337px;
+}
+.img-list__link{
+    color:#fff;
+    font-size:22px;
+    display:block;
+    height:40px;
+    line-height:40px;
+    word-spacing:10px;
+    letter-spacing:2px;
+    text-align:center;
+    background:rgba(129,180,91, 0.4);
+}
+.img-list__third-list-item{
+    margin:174px 0 0 0;
+}
+.img-list__logo{
+    margin: 0 0 41px -20px;
+}
+.img-list__born-for{
+   margin:0  0 0 -130px;
+}
+.img-list__born-for:hover{
+   box-shadow:0 3px 0 #6ea147;
+}
+.img-list__arrow-right{
+    float:right;
+    top:206px;
+    right:7px;
 }
