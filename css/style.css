@@ -47,9 +47,11 @@
     clear:both;
 }
 .container{
-    margin:10px;
+    margin:10px auto;
     width:1300px;
 }
+
+
 .header-top__top-menu-links{
     height:40px;
     background:#709b1d;
@@ -660,4 +662,93 @@
 .fa-chevron-right{
     float:right;
     padding:0 0 0 5px;
+}
+.phone-list-item__phone-reservation{
+    background:#709b1d;
+}
+
+.phone-list__phone-list-item{
+    margin:0 20px 0 0;
+    float:left;
+}
+.phone-list__phone-list-item:hover .phone-list-item__phone-img{
+    border:4px solid #709b1d;
+}
+.phone-list__phone-list-item_last{
+    margin:0;
+}
+.phone-list-item__phone-img{
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:313px;
+    border:4px solid #efefef;
+}
+
+.phone-list-item__phone-img_first{
+    background-image:url(../img/handy1.png);
+}
+.phone-list-item__phone-img_second{
+    background-image:url(../img/handy2.png);
+}
+.phone-list-item__phone-img_third{
+    background-image:url(../img/handy3.png);
+}
+.phone-list-item__phone-reservation{
+    border:1px solid #709b1d;
+}
+.phone-reservation__phone-title{
+    width:268px;
+    margin:-19px auto 0;
+    border:1px solid #c5c5c5;
+    display:block;
+    text-align:center;
+    height:32px;
+    line-height:32px;
+    color:#709b1d;
+    background:#fff;
+    border-radius:2px;
+}
+.phone-list-item__phone-reservation{
+    height:81px;
+    width:298px;
+}
+.phone-reservation__reservation-options{
+    width:270px;
+    margin:13px auto;
+}
+.reservation-options__reservation-link{
+    display:block;
+    height:39px;
+    background:#fff;
+    float:left;
+    margin-right:11px;
+    color:#b9b9b9;
+    border-radius:2px;
+}
+.reservation-options__exchange{
+    margin:0;
+}
+.reservation-options__icon{
+    font-size:24px;
+    line-height:39px;
+    padding:0 8px;
+}
+.reservation-link__pencil{
+    padding:0 7px 0 8px;
+
+}
+.reservation-options__shop-cart{
+    margin:0 13px 0 14px;
+    padding:0;
+}
+.reservation-options__add-to-cart{
+    margin:9px 13px 0 0;
+}
+.reservation-link-cart__item{
+    display:block;
+    float:left;
+}
+.reservation-options__reservation-link_cart{
+    width:168px;
+    color:#709b1d;
 }
