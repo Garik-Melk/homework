@@ -724,6 +724,10 @@
     margin-right:11px;
     color:#b9b9b9;
     border-radius:2px;
+
+}
+.reservation-options__reservation-link:hover{
+    border-bottom:2px solid #e4e4e4;
 }
 .reservation-options__exchange{
     margin:0;
