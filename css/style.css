@@ -756,3 +756,95 @@
     width:168px;
     color:#709b1d;
 }
+
+.middle-section__discount-box{
+    border:3px solid #efefef;
+    margin:87px 0 0 0;
+    height:410px;
+    background-image:url(../img/discount.png);
+    background-size:cover;
+}
+.discount-box__discount-circle{
+    height:151px;
+    width:151px;
+    background:#709b1d;
+    border-radius:50%;
+    border:1px solid #709b1d;
+    margin:8px 35px 0 293px;
+    float:left;
+}
+.discount-box__discount-text-box{
+    float:left;
+    width:380px;
+}
+.discount-circle__text{
+    display:block;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
+.discount-circle__text-top{
+    color:#cbcbcb;
+    margin:32px auto 6px;
+}
+.discount-circle__text-bottom{
+    color:#fff;
+}
+.discount-text-box__item{
+    display:block;
+}
+.discount-text-box-50{
+    font-size:72px;
+    color:#709b1d;
+    height: 52px;
+    line-height:47px;
+    margin:16px 0 49px 0;
+}
+.discount-text-box__for-walton{
+    font-size:30px;
+    color:#000;
+    height:21px;
+    line-height: 20px;
+}
+.discount-text-box__power-packed{
+    font-size:20px;
+    color:#709b1d;
+    height:17px;
+    line-height: 13px;
+    margin:38px 0 33px 0;
+}
+.discount-text-box__text{
+    font-family: "Open Sans Light", sans-serif;
+    font-size:14px;
+    margin-bottom:28px;
+}
+.discount-text-box__discount-date-list{
+    width:299px;
+}
+.discount-date-list__discount-date-list-item{
+    float:left;
+    margin-right:13px;
+    background:#709b1d;
+    border-radius:2px;
+    height:63px;
+    width:63px;
+    color:#fff;
+}
+.discount-date-list__discount-date-list-item:hover{
+    border-bottom:2px solid #4b6e08;
+}
+.discount-date-list__discount-date-list-item_last{
+    margin:0;
+}
+.discount-date-list-item__text{
+    display:block;
+    text-align:center;
+}
+.discount-date-list-item__text-top{
+    font-size:30px;
+    font-weight:bold;
+}
+.discount-date-list-item__text-bottom{
+    font-family:"Open Sans Light", sans-serif;
+    font-size:12px;
+}
