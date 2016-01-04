@@ -695,8 +695,9 @@
     width:54px;
     background:#709b1d;
     border:1px solid #709b1d;
-    margin-top:35px;
-    border-radius:2px;
+    margin-top:12px;
+    border-radius:0 2px 2px 0;
+    display:none;
 }
 .phone-img_second-discount__text{
     color:#fff;
@@ -706,6 +707,9 @@
     text-align:center;
     margin:18px 0 0 8px;
     width:35px;
+}
+.phone-list-item__phone-img_second:hover .phone-img_second__phone-img_second-discount{
+    display:block;
 }
 .phone-list-item__phone-img_third{
     background-image:url(../img/handy3.png);
@@ -765,13 +769,22 @@
 .reservation-options__add-to-cart{
     margin:9px 13px 0 0;
 }
+.reservation-options__add-to-compare{
+    margin:9px 0 0 0;
+}
+.reservation-options__add-to-wishlist{
+    margin:9px 0 0 2px;
+}
+.reservation-link__pencil{
+    margin:2px 0 0 0;
+}
 .reservation-link-cart__item{
-    display:block;
     float:left;
 }
 .reservation-options__reservation-link_cart{
     width:168px;
     color:#709b1d;
+
 }
 
 .middle-section__discount-box{
@@ -869,7 +882,7 @@
 .container__input{
     border:1px solid transparent;
     height:250px;
-    margin-top:81px;
+    margin:81px 0 88px 0;
     background-image:url(../img/second_background.png);
     background-size:cover;
 }
@@ -917,4 +930,67 @@
     font-size:24px;
     height:45px;
     border-radius:2px;
+}
+.container__bottom-section{
+    width:940px;
+    margin:0 auto 79px;
+}
+.phone-list-item__phone-img_fourth{
+    background-image:url(../img/handy4.png);
+}
+.phone-list-item__phone-img_fifth{
+    background-image:url(../img/handy5.png);
+}
+.phone-list-item__phone-img_fifth:hover .phone-img_second__phone-img_second-discount{
+    display:block;
+}
+.phone-list-item__phone-img_sixth{
+    background-image:url(../img/handy6.png);
+}
+.primo-menu__primo-menu-item_laptop{
+    margin:3px  0 0 380px;
+    padding:0 16px;
+    border:1px solid transparent;
+}
+.reservation-link__pencil2{
+    float:left;
+    padding:0 8px 0 11px;
+    line-height:45px;
+}
+.reservation-link__wishlist{
+    height:39px;
+    background:#fff;
+    float:left;
+    line-height:43px;
+    font-family:"Open Sans Semibold", sans-serif;
+    font-size:16px;
+    padding-right:8px;
+}
+.reservation-options__reservation-link_wishlist{
+    color:#709b1d;
+}
+.bottom-section__primo-bottom{
+    margin:79px 0 89px 0;
+}
+.reservation-options__reservation-link_last{
+    margin:0;
+}
+.reservation-link__exchange{
+    padding:0;
+    margin:0 6px 0 7px;
+}
+.reservation-link__exchange2{
+    float:left;
+}
+.phone-list-item__phone-img_seventh{
+    background-image:url(../img/handy1.png);
+}
+.phone-list-item__phone-img_seventh:hover .phone-img_second__phone-img_second-discount{
+    display:block;
+}
+.phone-list-item__phone-img_eighth{
+    background-image:url(../img/handy2.png);
+}
+.phone-list-item__phone-img_ninth{
+    background-image:url(../img/handy3.png);
 }
