@@ -49,6 +49,7 @@
 .container{
     margin:10px auto;
     width:1300px;
+    background-image:url(../img/background.png);
 }
 
 
@@ -469,6 +470,17 @@
     float:left;
     position:relative;
 }
+.container-section-main__arrow{
+    display:block;
+    font-size:43px;
+    color:#d5debf;
+}
+.container-section-main__arrow-left:hover{
+    text-shadow:2px 2px 6px green;
+}
+.container-section-main__arrow-right:hover{
+    text-shadow:-2px 2px 6px green;
+}
 .img-list__arrow-left{
     margin:206px 0 0 7px;
 }
@@ -880,8 +892,9 @@
     font-size:12px;
 }
 .container__input{
+    width: 1300px;
     border:1px solid transparent;
-    height:250px;
+    height: 250px;
     margin:81px 0 88px 0;
     background-image:url(../img/second_background.png);
     background-size:cover;
@@ -934,6 +947,8 @@
 .container__bottom-section{
     width:940px;
     margin:0 auto 79px;
+    background-image:url(../img/background.png);
+    background-repeat:repeat;
 }
 .phone-list-item__phone-img_fourth{
     background-image:url(../img/handy4.png);
@@ -993,4 +1008,269 @@
 }
 .phone-list-item__phone-img_ninth{
     background-image:url(../img/handy3.png);
+}
+.brands__our-brand{
+    width:168px;
+    background:#709b1d;
+    height:44px;
+    line-height:44px;
+    font-family:"Open Sans Regular", sans-serif;
+    font-size:24px;
+    display:block;
+    text-align:center;
+    border-radius:3px;
+    margin:0 auto;
+}
+.brands__our-brand:hover{
+    border-bottom:3px solid #5b8112;
+}
+.container__brands{
+    height:46px;
+    margin:89px auto 30px;
+    width:168px;
+}
+.our-brand__link{
+    color:#fff;
+    display:block;
+}
+.container__brand-list{
+    margin-bottom:50px;
+}
+.brand-list-item__link{
+    display:block;
+    height:60px;
+}
+.brand-list__brand-list-item{
+    float:left;
+    margin-right:22px;
+    border:2px solid #efefef;
+    width:134px;
+    height:60px;
+}
+.brand-list__brand-list-item1{
+    background-image:url(../img/brand1.png);
+}
+.brand-list__brand-list-item2{
+    background-image:url(../img/brand2.png);
+}
+.brand-list__brand-list-item3{
+    background-image:url(../img/brand3.png);
+}
+.brand-list__brand-list-item4{
+    background-image:url(../img/brand4.png);
+}
+.brand-list__brand-list-item5{
+    background-image:url(../img/brand5.png);
+}
+.brand-list__brand-list-item6{
+    background-image:url(../img/brand6.png);
+}
+.brand-list__brand-list-item6{
+    margin:0;
+}
+/*Services list*/
+.footer__footer-content{
+    background:#f1f1f1;
+    height:250px;
+    border:1px solid transparent;
+}
+.footer-content__services-list{
+    margin:58px auto 0;
+    width:940px;
+
+    height:160px;
+}
+.services-list__services-list-item{
+    float:left;
+    font-size:5px;
+    width:220px;
+    margin-right:20px;
+}
+.services-list__services-list-item_fourth{
+    margin:0;
+}
+.services-list-item__title{
+    font-family:"Open Sans Regular", sans-serif;
+    font-size:18px;
+    color:#709b1d;
+    border-bottom:1px solid #000;
+    height:35px;
+    line-height:30px;
+    display:block;
+}
+.services-list-item__services-menu{
+    margin-top:12px;
+}
+.services-menu-item__services-link{
+    display:block;
+    font-size:13px;
+}
+.services-menu-item__services-link:hover{
+    color:#0e9407;
+}
+.services-link__item{
+    display:block;
+    float:left;
+    margin-bottom:7px;
+}
+.services-link__item_demra{
+    margin-left:22px;
+}
+.services-link__item_number{
+    margin-left:22px;
+}
+.fa-map-marker{
+    margin:2px 12px 0 0;
+    font-size:16px;
+}
+.fa-envelope{
+    font-size:11px;
+    margin:4px 13px 0 0;
+}
+.fa-play{
+    font-size:6px;
+    margin:6px 13px 0 0;
+}
+.fa-mobile{
+    font-size:18px;
+    margin-right:14px;
+}
+/*footer pay-follow*/
+
+.footer__pay-follow{
+    height:52px;
+    background:#e0e0e0;
+}
+.pay-follow__item{
+    float:left;
+}
+.pay-follow__pay{
+    margin:7px 75px 0 181px;
+}
+.pay__we-accept{
+    width:119px;
+    height:29px;
+    line-height:29px;
+    text-align:center;
+    border-radius:3px;
+    background:#709b1d;
+    display:block;
+    float:left;
+    margin:1px 15px 0 0;
+}
+.pay__we-accept:hover{
+    border-bottom:3px solid #5b8112;
+}
+.pay-follow__link{
+    font-family:"Open Sans Regular", sans-serif;
+    font-size:16px;
+    color:#fff;
+}
+.cards-list__link{
+    display:block;
+    height:38px;
+}
+.cards-list__item{
+    width:60px;
+    height:38px;
+    border-radius:3px;
+    background-size:cover;
+    float:left;
+    margin-right:10px;
+}
+.cards-list__item:hover{
+    opacity:0.7;
+}
+.cards-list__item_fourth{
+    margin:0;
+}
+.pay__cards-list{
+    float:left;
+}
+.cards-list__item_visa{
+    background-image:url(../img/visa.png);
+}
+.cards-list__item_master{
+    background-image:url(../img/master.png);
+}
+.cards-list__item_am-express{
+    background-image:url(../img/american.png);
+}
+.cards-list__item_cirrus{
+    background-image:url(../img/cirrus.png);
+}
+/*soc nets*/
+.pay-follow__follow{
+    margin-top:7px;
+}
+.follow__soc-net-list{
+    float:left;
+}
+.soc-net-list__link{
+    display:block;
+    color:#fff;
+    border-radius:3px;
+}
+.soc-net-list__link:hover{
+    opacity:0.7;
+}
+.soc-net-list__item{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    float:left;
+    margin-right:9px;
+    text-align:center;
+}
+.soc-net-list__icon{
+    font-size:30px;
+}
+.fa-facebook{
+    font-size:25px;
+    line-height:30px;
+}
+.soc-net-list__link_facebook{
+    background:#3b5998;
+}
+.soc-net-list__link_twitter{
+    background:#59d6ff;
+}
+.soc-net-list__link_twitter_google-plus{
+    background:#d53d30;
+}
+.soc-net-list__link_behance{
+    background:#12c5ef;
+}
+.soc-net-list__link_dribbble{
+    background:#f874a4;
+    color:#000;
+}
+.fa-twitter{
+    font-size:25px;
+}
+.fa-google-plus{
+    font-size:22px;
+}
+.fa-behance{
+    font-size:20px;
+}
+.fa-dribbble{
+    font-size:23px;
+}
+.soc-net-list__item_fifth{
+    margin:0;
+}
+/*copyright*/
+.footer__copyright{
+    height:50px;
+    line-height:50px;
+    background:#709b1d;
+    text-align:center;
+}
+.copyright__text{
+    font-family:"Open Sans Regular", sans-serif;
+    font-size:16px;
+    color:#c5ec78;
+    display:block;
+    border:1px solid;
 }
